@@ -1,0 +1,92 @@
+/*NAVBAR*/
+/*--------------------------------------------------------------*/
+.navbar {
+    background-color: #FF8903 !important;
+}
+
+/*BODY*/
+/*--------------------------------------------------------------*/
+body {
+    background-color: #252525 !important;
+}
+
+/*SILDER IMAGENES*/
+/*--------------------------------------------------------------*/
+.slide img{
+    height: 450px;
+}
+
+
+/*NAVBAR*/
+/*--------------------------------------------------------------*/
+.container{
+    left:50px;
+    right:80px;
+}
+
+/*CARDS*/
+/*--------------------------------------------------------------*/
+
+/*Contorno de las cards y sombreado*/
+.card {
+    background-color: #FF8903;
+    /*background: #fff;*/
+    border: 1px solid #FFEEDE;
+    box-shadow: 0 10px 20px rgba(255, 238, 222, 1);
+    margin: 15px 0;
+    overflow: hidden;
+}
+
+/*efecto al pasar con el raton*/
+.card:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+/*botones dentro de los cards*/
+.btnVerPlato{
+    background-color: #6A0110 !important;
+    color: #FFEEDE !important;
+}
+
+.btnVerPlato:hover {
+    background-color: #FFEEDE !important;
+    color: #6A0110 !important;
+}
+
+
+/*TABLA MENU*/
+/*--------------------------------------------------------------*/
+
+table {
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+}
+thead {
+    background-color: #DDD;
+    border-bottom: solid 5px #c0392b !important;
+    color: black;
+}
+tbody {
+    background-color: #343a40 !important;
+    color: white;
+}
+/*efecto al pasar con el raton*/
+tr:hover {
+    background-color: #DDD !important;
+    color: black;
+}
+
+/*JUMBOTRON*/
+/*--------------------------------------------------------------*/
+.jumbotron{
+    background-color: #FF8903;
+}
